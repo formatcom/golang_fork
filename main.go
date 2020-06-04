@@ -24,11 +24,6 @@ func step() {
 	fmt.Printf("step  %3d %d\n", _step, os.Getpid())
 }
 
-type info struct {
-	detail   string
-	code     uint8
-}
-
 func main() {
 
 	fmt.Println("init     ", os.Getpid())
